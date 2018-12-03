@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="moi.css">
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+body,h1,h2
+{
+  font-family: "Raleway", sans-serif
+  text-shadow: 15px 15px black;
+}
+h1,h2
+{
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 3px 4px black;
+}
+
+body, html 
+{
+  height: 100%
+}
+p 
+{
+  line-height: 2
+}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg {background-image: url("images/caminando.jpg")}
+.bgimg2 {background-image: url("images/fans.jpg")}
+</style>
+
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg" id="home">
+  <div class="w3-display-topmiddle w3-text-white w3-center">
+    <h1 class="w3-jumbo">YO VOY CON MOI</h1>
+    <h2>VOTA INTELIGENTE</h2>
+    <h2><b>16.11.2018</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">HOME</a>
+    <a href="#Conoceme" style="width:25%" class="w3-bar-item w3-button">CONÓCEME</a>
+    <a href="#Prensa" style="width:25%" class="w3-bar-item w3-button">SALA DE PRENSA</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">CONTACTO</a>
+  </div>
+</div>
+
+<!-- About / Conoceme -->
+<div class="w3-container w3-padding-64 w3-lime" id="Conoceme">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-white"><b>Conóceme</b></h1>
+    <img class="w3-round w3-grayscale-min" src="images/presentando2.jpg" style="width:100%;margin:32px 0">
+    <p><i>Soy estudiante de Ingenieria en Sistemas. Me apasiona la programación. Creo en la política como herramienta para servir a los alumnos y confío plenamente en que juntos construiremos una mejor UM.</i>
+    </p><br>
+    <p class="w3-center"><a href="#Prensa" class="w3-button w3-black w3-round w3-padding-large w3-large">Prensa</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-topleft w3-text-white w3-center">
+    <h1 class="w3-jumbo">Ejerce tu voto</h1>
+    <h2>POR UN MEJOR MAÑANA</h2>
+  </div>
+</div>
+
+<!-- Propuestas -->
+<div class="w3-container w3-padding-64 w3-lime w3-center" id="Prensa">
+  <div class="w3-content">
+    <h1 class="w3-text-white"><b>Sala de Prensa</b></h1>
+    <img class="w3-round-large" src="images/presentando.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <p>Con fuerza, entusiasmo, determinación y con la esperanza que se vuelve invencible, va Moises Hernandez por la victoria el próximo viernes" </p>
+        <p>La coalición está más fuerte que nunca; vamos a ganar y a defender nuestro triunfo: Por una UM mas Fuerte" </p>
+      </div>
+      <div class="w3-half">
+        <p>En la FIT, celebran más de 100 mil ingenieros el próximo triunfo de Moises Hernandez</p>
+        <br>
+        <p>Denuncia equipo de Moises Hernandez penalmente a funcionarios de Cosas UM por difundir ilegalmente información para afectar su candidatura</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-amber w3-center w3-wide w3-text-white" id="rsvp">
+  <h1>CONTACTAME</h1>
+  <p class="w3-large">Si tienes una iniciativa que quieras que impulse dejamela saber</p>
+  <p class="w3-large">rector@moiseshernandes.com</p>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by YOUR DREAMS</p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
